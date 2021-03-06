@@ -18,6 +18,7 @@ nvcc_args = [
 
 setup(
     name='resample2d_cuda',
+    version='0.1',
     ext_modules=[
         CUDAExtension('resample2d_cuda', [
             'resample2d_cuda.cc',
